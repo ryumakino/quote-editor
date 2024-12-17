@@ -8,6 +8,10 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
+// Entry point for the build script in your package.json
+import "@hotwired/turbo-rails"
+import "./controllers"
+
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
